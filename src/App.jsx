@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FORMSPREE_ID = "YOUR_FORMSPREE_ID";
+const FORMSPREE_ID = "mjgppanr";
 const HERO_IMAGE_URL = "/images/featured-visual.jpg";
 
 function InquiryForm() {
@@ -120,9 +120,9 @@ export default function DJToluuLandingPage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(169,122,84,0.18),transparent_35%)]" />
           <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-[1.15fr_0.85fr] lg:px-10 lg:py-32">
             <div className="relative z-10 flex flex-col justify-center">
-              <div className="mb-6 inline-flex w-fit items-center rounded-full border border-[#c9b19b] bg-[#fff8f1]/70 px-4 py-2 text-xs uppercase tracking-[0.24em] text-[#866956]">Atlanta Corporate • Weddings • Private Events</div>
+              <div className="mb-6 inline-flex w-fit items-center rounded-full border border-[#c9b19b] bg-[#fff8f1]/70 px-4 py-2 text-xs uppercase tracking-[0.24em] text-[#866956]">Atlanta Corporate â¢ Weddings â¢ Private Events</div>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-tight text-[#3a2a20] md:text-6xl lg:text-7xl">Premium DJ experiences for events that need the room to feel right.</h1>
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#6f5849] md:text-xl">DJ Toluu delivers polished, crowd-aware music experiences for corporate events, weddings, and private celebrations—curated with style, flow, and energy that lasts all night.</p>
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#6f5849] md:text-xl">DJ Toluu delivers polished, crowd-aware music experiences for corporate events, weddings, and private celebrationsâcurated with style, flow, and energy that lasts all night.</p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <a href="#contact" className="rounded-full bg-[#7b5a46] px-7 py-4 text-center text-sm font-semibold text-[#fff8f2] transition hover:scale-[1.02]">Check Availability</a>
                 <a href="#services" className="rounded-full border border-[#b9967c] px-7 py-4 text-center text-sm font-semibold text-[#6b4d3b] transition hover:bg-[#fff8f1]">Explore Services</a>
@@ -167,7 +167,7 @@ export default function DJToluuLandingPage() {
         <section id="about" className="mx-auto grid max-w-7xl gap-10 px-6 py-24 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
           <div><p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">About</p><h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">A polished DJ experience built around energy, timing, and people.</h2></div>
           <div className="space-y-6 text-lg leading-8 text-[#6a5445]">
-            <p>DJ Toluu brings a versatile open-format approach to events that need more than a playlist. Every set is shaped around the room, the audience, and the moment—so the music never feels random, forced, or flat.</p>
+            <p>DJ Toluu brings a versatile open-format approach to events that need more than a playlist. Every set is shaped around the room, the audience, and the momentâso the music never feels random, forced, or flat.</p>
             <div className="grid gap-4 sm:grid-cols-2">{highlights.map((item) => (<div key={item} className="rounded-3xl border border-[#d8c2af] bg-[#fff8f2] p-5 text-base leading-7 text-[#6a5445]">{item}</div>))}</div>
           </div>
         </section>
@@ -189,7 +189,7 @@ export default function DJToluuLandingPage() {
               <div>
                 <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">Contact</p>
                 <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">Make the event feel elevated before guests even hit the dance floor.</h2>
-                <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5849]">Send your date, venue, event type, and guest count. You'll get a tailored response built around your event—not a generic quote.</p>
+                <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5849]">Send your date, venue, event type, and guest count. You'll get a tailored response built around your eventânot a generic quote.</p>
                 <div className="mt-6 text-sm text-[#9a7f6c]">Or reach out directly: <a href="mailto:booking@djtoluu.com" className="underline hover:text-[#5a3d2b]">booking@djtoluu.com</a></div>
               </div>
               <InquiryForm />
@@ -200,7 +200,7 @@ export default function DJToluuLandingPage() {
       <footer className="border-t border-[#d8c2af] bg-[#f1e4d7]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-[#9a7f6c] sm:flex-row lg:px-10">
           <p className="font-semibold tracking-[0.18em] uppercase text-[#5a4333]">DJ Toluu</p>
-          <p>Atlanta Corporate · Weddings · Private Events</p>
+          <p>Atlanta Corporate Â· Weddings Â· Private Events</p>
           <a href="mailto:booking@djtoluu.com" className="hover:text-[#3a2a20] transition">booking@djtoluu.com</a>
         </div>
       </footer>
