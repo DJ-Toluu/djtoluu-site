@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-// ─── CONFIGURATION ───────────────────────────────────────────────────────────
+// âââ CONFIGURATION âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 const FORMSPREE_ID = "mjgppanr";
 
 // Google Sheets logger via Apps Script web app
 const SHEETS_URL = "https://script.google.com/macros/s/AKfycbxZl06gzPyDwjXrAprC10kYSAFF2TzJfPMOOP_eQ8pydLrI90ZeuPE2TEyvoG24-Ow/exec";
 
 // Replace this with your Cloudinary image URL once uploaded.
-const HERO_IMAGE_URL = "/images/featured-visual.jpg";
-// ─────────────────────────────────────────────────────────────────────────────
+const HERO_IMAGE_URL = "https://res.cloudinary.com/datxxycgf/image/upload/IMG_0542_2_00s_odiglq";
+// âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 function InquiryForm() {
   const [formData, setFormData] = useState({
@@ -68,7 +68,7 @@ function InquiryForm() {
       <div className="rounded-[2rem] border border-[#ccb49f] bg-[#fffaf5] p-8 text-center">
         <p className="text-2xl font-semibold text-[#3a2a20]">Message received!</p>
         <p className="mt-3 text-base leading-7 text-[#6f5849]">
-          Thanks for reaching out. You'll hear back within 24–48 hours with a tailored response for your event.
+          Thanks for reaching out. You'll hear back within 24â48 hours with a tailored response for your event.
         </p>
         <button
           onClick={() => setStatus("idle")}
@@ -149,9 +149,9 @@ function InquiryForm() {
         >
           <option value="" disabled>Select range</option>
           <option value="Under 50">Under 50</option>
-          <option value="50–100">50–100</option>
-          <option value="100–200">100–200</option>
-          <option value="200–500">200–500</option>
+          <option value="50â100">50â100</option>
+          <option value="100â200">100â200</option>
+          <option value="200â500">200â500</option>
           <option value="500+">500+</option>
         </select>
       </div>
@@ -181,7 +181,7 @@ function InquiryForm() {
         disabled={status === "sending"}
         className="w-full rounded-full bg-[#7b5a46] px-7 py-4 text-center text-sm font-semibold text-[#fff8f2] transition hover:scale-[1.02] disabled:opacity-60"
       >
-        {status === "sending" ? "Sending…" : "Check Availability"}
+        {status === "sending" ? "Sendingâ¦" : "Check Availability"}
       </button>
     </form>
   );
@@ -269,19 +269,19 @@ export default function DJToluuLandingPage() {
       </header>
 
       <main>
-        {/* ── HERO ── */}
+        {/* ââ HERO ââ */}
         <section className="relative overflow-hidden bg-[linear-gradient(180deg,#f7f0e8_0%,#f3e8dc_55%,#efe2d4_100%)]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(169,122,84,0.18),transparent_35%)]" />
           <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-[1.15fr_0.85fr] lg:px-10 lg:py-32">
             <div className="relative z-10 flex flex-col justify-center">
               <div className="mb-6 inline-flex w-fit items-center rounded-full border border-[#c9b19b] bg-[#fff8f1]/70 px-4 py-2 text-xs uppercase tracking-[0.24em] text-[#866956]">
-                Atlanta Corporate • Weddings • Private Events
+                Atlanta Corporate â¢ Weddings â¢ Private Events
               </div>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.95] tracking-tight text-[#3a2a20] md:text-6xl lg:text-7xl">
                 Premium DJ experiences for events that need the room to feel right.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#6f5849] md:text-xl">
-                DJ Toluu delivers polished, crowd-aware music experiences for corporate events, weddings, and private celebrations—curated with style, flow, and energy that lasts all night.
+                DJ Toluu delivers polished, crowd-aware music experiences for corporate events, weddings, and private celebrationsâcurated with style, flow, and energy that lasts all night.
               </p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <a
@@ -346,7 +346,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── TRUST BAR ── */}
+        {/* ââ TRUST BAR ââ */}
         <section className="border-y border-[#d8c2af] bg-[#f1e4d7]">
           <div className="mx-auto grid max-w-7xl gap-6 px-6 py-8 text-sm text-[#806755] sm:grid-cols-2 lg:grid-cols-4 lg:px-10">
             <div>Professional event atmosphere</div>
@@ -356,7 +356,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── SERVICES ── */}
+        {/* ââ SERVICES ââ */}
         <section id="services" className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">Services</p>
@@ -374,7 +374,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── ABOUT ── */}
+        {/* ââ ABOUT ââ */}
         <section id="about" className="mx-auto grid max-w-7xl gap-10 px-6 py-24 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
           <div>
             <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">About</p>
@@ -384,7 +384,7 @@ export default function DJToluuLandingPage() {
           </div>
           <div className="space-y-6 text-lg leading-8 text-[#6a5445]">
             <p>
-              DJ Toluu brings a versatile open-format approach to events that need more than a playlist. Every set is shaped around the room, the audience, and the moment—so the music never feels random, forced, or flat.
+              DJ Toluu brings a versatile open-format approach to events that need more than a playlist. Every set is shaped around the room, the audience, and the momentâso the music never feels random, forced, or flat.
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               {highlights.map((item) => (
@@ -396,7 +396,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── PROCESS ── */}
+        {/* ââ PROCESS ââ */}
         <section id="process" className="bg-[#fffaf5] text-[#2f241d]">
           <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
             <div className="max-w-2xl">
@@ -417,7 +417,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── FAQ ── */}
+        {/* ââ FAQ ââ */}
         <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
           <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
             <div>
@@ -437,7 +437,7 @@ export default function DJToluuLandingPage() {
           </div>
         </section>
 
-        {/* ── CONTACT ── */}
+        {/* ââ CONTACT ââ */}
         <section id="contact" className="mx-auto max-w-7xl px-6 pb-24 lg:px-10">
           <div className="rounded-[2.5rem] border border-[#d0baa7] bg-[linear-gradient(135deg,#fff8f1_0%,#f4e6d7_100%)] p-8 md:p-12">
             <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
@@ -447,7 +447,7 @@ export default function DJToluuLandingPage() {
                   Make the event feel elevated before guests even hit the dance floor.
                 </h2>
                 <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5849]">
-                  Send your date, venue, event type, and guest count. You'll get a tailored response built around your event—not a generic quote.
+                  Send your date, venue, event type, and guest count. You'll get a tailored response built around your eventânot a generic quote.
                 </p>
                 <div className="mt-6 text-sm text-[#9a7f6c]">
                   Or reach out directly:{" "}
@@ -462,11 +462,11 @@ export default function DJToluuLandingPage() {
         </section>
       </main>
 
-      {/* ── FOOTER ── */}
+      {/* ââ FOOTER ââ */}
       <footer className="border-t border-[#d8c2af] bg-[#f1e4d7]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-[#9a7f6c] sm:flex-row lg:px-10">
           <p className="font-semibold tracking-[0.18em] uppercase text-[#5a4333]">DJ Toluu</p>
-          <p>Atlanta Corporate · Weddings · Private Events</p>
+          <p>Atlanta Corporate Â· Weddings Â· Private Events</p>
           <a href="mailto:booking@djtoluu.com" className="hover:text-[#3a2a20] transition">
             booking@djtoluu.com
           </a>
