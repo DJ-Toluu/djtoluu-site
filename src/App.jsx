@@ -123,7 +123,7 @@ export default function DJToluuLandingPage() {
             <a href="#process" className="transition hover:text-[#2f241d]">Process</a>
             <a href="#contact" className="transition hover:text-[#2f241d]">Contact</a>
           </nav>
-          
+          <a
             href="#contact"
             className="hidden rounded-full border border-[#7b5a46] bg-[#7b5a46] px-5 py-2 text-sm font-medium text-[#fff8f2] transition hover:scale-[1.02] md:inline-flex"
           >
@@ -164,13 +164,13 @@ export default function DJToluuLandingPage() {
                 all night.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                
+                <a
                   href="#contact"
                   className="rounded-full bg-[#7b5a46] px-7 py-4 text-center text-sm font-semibold text-[#fff8f2] transition hover:scale-[1.02]"
                 >
                   Check Availability
                 </a>
-                
+                <a
                   href="#services"
                   className="rounded-full border border-[#b9967c] px-7 py-4 text-center text-sm font-semibold text-[#6b4d3b] transition hover:bg-[#fff8f1]"
                 >
@@ -358,7 +358,7 @@ export default function DJToluuLandingPage() {
                 </p>
                 <p className="mt-4 text-sm text-[#9a7f6c]">
                   Or reach out directly at{" "}
-                  
+                  <a
                     href="mailto:bookings@djtoluu.com"
                     className="underline underline-offset-4"
                   >
@@ -443,7 +443,7 @@ export default function DJToluuLandingPage() {
                       </p>
                     )}
                     <div className="flex gap-3 pt-1">
-                      
+                      <a
                         href="https://linktr.ee/djtoluu"
                         target="_blank"
                         rel="noopener noreferrer"
