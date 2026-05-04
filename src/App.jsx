@@ -154,13 +154,13 @@ export default function DJToluuLandingPage() {
             {/* Left */}
             <div className="relative z-10 flex flex-col justify-center">
               <div className="mb-6 inline-flex w-fit items-center rounded-full border border-[#c9b19b] bg-[#fff8f1]/70 px-4 py-2 text-xs uppercase tracking-[0.24em] text-[#866956]">
-                Corporate Events ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Weddings ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Private Events
+                Corporate Events / Weddings / Private Events
               </div>
               <h1 className="max-w-4xl text-4xl font-semibold leading-[0.95] tracking-tight text-[#3a2a20] sm:text-5xl lg:text-6xl">
                 The multicultural corporate DJ. Trusted nationwide.
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-7 text-[#6f5849] sm:text-lg md:text-xl">
-                Afrobeats, Amapiano, Hip-Hop, R&amp;B, and everything in between Ã¢ÂÂ DJ Toluu reads the room and moves the crowd at corporate galas, weddings, and private celebrations. Based in Atlanta. Available nationwide.
+                Afrobeats, Amapiano, Hip-Hop, R&amp;B, and everything in between -- DJ Toluu reads the room and moves the crowd at corporate galas, weddings, and private celebrations. Based in Atlanta. Available nationwide.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
@@ -198,7 +198,7 @@ export default function DJToluuLandingPage() {
               </div>
             </div>
 
-            {/* Right ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ hero image */}
+            {/* Right -- hero image */}
             <div className="relative z-10">
               <div className="grid gap-5">
                 <div className="rounded-[2rem] border border-[#d7c2ae] bg-[#fff8f2] p-5 shadow-[0_30px_70px_rgba(108,73,47,0.12)]">
@@ -298,7 +298,7 @@ export default function DJToluuLandingPage() {
           <div className="space-y-6 text-lg leading-8 text-[#6a5445]">
             <p>
               DJ Toluu brings a versatile open-format approach to events that need more than a
-              playlist. Every set is shaped around the room, the audience, and the momentÃÂÃÂ¢ÃÂÃÂÃÂÃÂso the
+              playlist. Every set is shaped around the room, the audience, and the moment -- so the
               music never feels random, forced, or flat.
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -374,7 +374,7 @@ export default function DJToluuLandingPage() {
                 </h2>
                 <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5849]">
                   Send your date, venue or city, event type, and guest count. You'll get a tailored
-                  response built around your eventÃÂÃÂ¢ÃÂÃÂÃÂÃÂnot a generic quote.
+                  response built around your event -- not a generic quote.
                 </p>
                 <p className="mt-4 text-sm text-[#9a7f6c]">
                   Or reach out directly at{" "}
@@ -434,13 +434,13 @@ export default function DJToluuLandingPage() {
                     >
                       <option value="">Guest count (optional)</option>
                       <option>Under 50</option>
-                      <option>50ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ100</option>
-                      <option>100ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ200</option>
-                      <option>200ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ500</option>
+                      <option>50-100</option>
+                      <option>100-200</option>
+                      <option>200-500</option>
                       <option>500+</option>
                     </select>
                     <textarea
-                      placeholder="Tell me about your event ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ venue, city, vibe, anything relevant"
+                      placeholder="Tell me about your event -- venue, city, vibe, anything relevant"
                       rows={3}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -451,7 +451,7 @@ export default function DJToluuLandingPage() {
                       disabled={status === "sending"}
                       className="w-full rounded-full bg-[#7b5a46] px-7 py-4 text-sm font-semibold text-[#fff8f2] transition hover:scale-[1.02] disabled:opacity-60"
                     >
-                      {status === "sending" ? "SendingÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¦" : "Check Availability"}
+                      {status === "sending" ? "Sending--" : "Check Availability"}
                     </button>
                     {status === "error" && (
                       <p className="text-center text-sm text-red-600">
@@ -483,7 +483,7 @@ export default function DJToluuLandingPage() {
         <footer className="border-t border-[#cbb7a2]/40 bg-[#efe2d4]">
           <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-6 text-sm text-[#806755] sm:flex-row sm:items-center sm:justify-between lg:px-10">
             <p className="font-semibold uppercase tracking-[0.22em] text-[#5a4333]">DJ Toluu</p>
-            <p>Corporate Events Â· Weddings Â· Private Events Nationwide</p>
+            <p>Corporate Events -- Weddings -- Private Events Nationwide</p>
             <a href="mailto:bookings@djtoluu.com" className="underline underline-offset-4">
               bookings@djtoluu.com
             </a>
