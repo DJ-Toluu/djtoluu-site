@@ -238,15 +238,15 @@ export default function DJToluuLandingPage() {
             <p className="mb-5 text-center text-xs uppercase tracking-[0.2em] text-[#9b7f6b]">Trusted By</p>
             <div className="flex flex-wrap items-center justify-center gap-10">
               {[
-                { name: "Georgia Power", domain: "georgiapower.com" },
-                { name: "UPS", domain: "ups.com" },
-                { name: "Gwinnett County", domain: "gwinnettcounty.com" },
-                { name: "AABE", domain: "aabe.org" },
-                { name: "Tailfin Marketing", domain: "tailfinmarketing.com" },
-              ].map(({ name, domain }) => (
+                { name: "Georgia Power", src: "/logos/georgia-power.png" },
+                { name: "UPS", src: "/logos/ups.svg" },
+                { name: "Gwinnett County", src: "/logos/gwinnett-county.svg" },
+                { name: "AABE", src: "/logos/aabe.png" },
+                { name: "Tailfin Marketing", src: "/logos/tailfin.png" },
+              ].map(({ name, src }) => (
                 <img
                   key={name}
-                  src={`https://logo.clearbit.com/${domain}`}
+                  src={src}
                   alt={name}
                   title={name}
                   className="h-8 w-auto object-contain opacity-60 grayscale transition hover:opacity-90 hover:grayscale-0"
