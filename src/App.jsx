@@ -292,7 +292,7 @@ export default function DJToluuLandingPage() {
           <div>
             <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">About</p>
             <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-              A polished DJ experience built around energy, timing, and people.
+              Built around energy, timing, and the people in the room.
             </h2>
           </div>
           <div className="space-y-6 text-lg leading-8 text-[#6a5445]">
