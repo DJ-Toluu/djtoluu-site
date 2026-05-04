@@ -240,7 +240,7 @@ export default function DJToluuLandingPage() {
               {[
                 { name: "Georgia Power", src: "/logos/georgia-power.png" },
                 { name: "UPS", src: "/logos/ups.svg" },
-                { name: "Gwinnett County", src: "/logos/gwinnett-county.svg" },
+                { name: "Gwinnett County", src: "/logos/gwinnett-county.webp" },
                 { name: "AABE", src: "/logos/aabe.png" },
                 { name: "Tailfin Marketing", src: "/logos/tailfin.png" },
               ].map(({ name, src }) => (
@@ -249,7 +249,7 @@ export default function DJToluuLandingPage() {
                   src={src}
                   alt={name}
                   title={name}
-                  className="h-8 w-auto object-contain opacity-60 grayscale transition hover:opacity-90 hover:grayscale-0"
+                  className="h-8 max-w-[140px] w-auto object-contain opacity-80 transition hover:opacity-100"
                   onError={(e) => {
                     e.currentTarget.style.display = "none";
                     const span = document.createElement("span");
