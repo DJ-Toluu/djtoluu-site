@@ -73,7 +73,7 @@ export default function DJToluuLandingPage() {
     "Open-format DJ blending Afrobeats, Amapiano, Hip-Hop, R&B, Latin, and more",
     "Professional sound, microphone support, and smooth event pacing",
     "Experienced with corporate functions, weddings, and upscale private events",
-    "Based in Atlanta Ã¢ÂÂ available nationwide for corporate events, galas, and private celebrations",
+    "Based in Atlanta -- available nationwide for corporate events, galas, and private celebrations",
   ];
 
   const process = [
@@ -97,7 +97,7 @@ export default function DJToluuLandingPage() {
   const faqs = [
     {
       q: "What types of events do you DJ?",
-      a: "Corporate events, weddings, private celebrations, and other gatherings that call for a polished, crowd-aware music experience.",
+      a: "Corporate events, weddings, private celebrations, and other gatherings that call for a sharp, crowd-aware music experience.",
     },
     {
       q: "Do you provide sound equipment?",
@@ -268,7 +268,7 @@ export default function DJToluuLandingPage() {
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">Services</p>
             <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-              Flexible enough for the crowd. Refined enough for the brand.
+              Right energy for the crowd. Right fit for the brand.
             </h2>
           </div>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -370,7 +370,7 @@ export default function DJToluuLandingPage() {
               <div>
                 <p className="text-sm uppercase tracking-[0.24em] text-[#9b7f6b]">Contact</p>
                 <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-                  Make the event feel elevated before guests even hit the dance floor.
+                  Set the tone before a single guest walks in.
                 </h2>
                 <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5849]">
                   Send your date, venue or city, event type, and guest count. You'll get a tailored
