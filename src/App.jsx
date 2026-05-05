@@ -180,7 +180,7 @@ export default function DJToluuLandingPage() {
                 <div className="rounded-3xl border border-[#d8c2af] bg-[#fff9f3] p-5 shadow-[0_18px_40px_rgba(93,63,42,0.08)]">
                   <p className="text-3xl font-semibold">Corporate</p>
                   <p className="mt-2 text-sm text-[#7c6657]">
-                    Polished event energy for brands, teams, and professional spaces.
+                    Sharp energy for brands, teams, and professional spaces.
                   </p>
                 </div>
                 <div className="rounded-3xl border border-[#d8c2af] bg-[#fff9f3] p-5 shadow-[0_18px_40px_rgba(93,63,42,0.08)]">
@@ -215,7 +215,7 @@ export default function DJToluuLandingPage() {
                         Featured Visual
                       </p>
                       <p className="mt-3 max-w-sm text-2xl font-medium leading-tight text-[#fff8f2]">
-                        Warm, polished event energy for unforgettable celebrations.
+                        Real energy. Real crowd. Every time.
                       </p>
                     </div>
                   </div>
