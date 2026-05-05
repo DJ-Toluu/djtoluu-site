@@ -73,7 +73,7 @@ export default function DJToluuLandingPage() {
     "Open-format DJ blending Afrobeats, Amapiano, Hip-Hop, R&B, Latin, and more",
     "Professional sound, microphone support, and smooth event pacing",
     "Experienced with corporate functions, weddings, and upscale private events",
-    "Based in Atlanta -- available nationwide for corporate events, galas, and private celebrations",
+    "Available worldwide for corporate events, galas, and private celebrations",
   ];
 
   const process = [
@@ -105,7 +105,7 @@ export default function DJToluuLandingPage() {
     },
     {
       q: "Do you travel?",
-      a: "Yes. DJ Toluu is based in Atlanta and available nationally for corporate events, galas, and private celebrations. Travel fees may apply depending on location.",
+      a: "Yes. DJ Toluu is available worldwide for corporate events, galas, and private celebrations. Travel fees may apply depending on location.",
     },
   ];
 
@@ -160,7 +160,7 @@ export default function DJToluuLandingPage() {
                 The multicultural corporate DJ. Trusted nationwide.
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-7 text-[#6f5849] sm:text-lg md:text-xl">
-                Afrobeats, Amapiano, Hip-Hop, R&amp;B, and everything in between -- DJ Toluu reads the room and moves the crowd at corporate galas, weddings, and private celebrations. Based in Atlanta. Available nationwide.
+                Afrobeats, Amapiano, Hip-Hop, R&amp;B, and everything in between -- DJ Toluu reads the room and moves the crowd at corporate galas, weddings, and private celebrations. Available worldwide.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
