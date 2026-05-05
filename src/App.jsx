@@ -242,22 +242,19 @@ export default function DJToluuLandingPage() {
                 { name: "UPS", src: "/logos/ups.svg" },
                 { name: "Gwinnett County", src: "/logos/gwinnett-county.webp" },
                 { name: "AABE", src: "/logos/aabe.png" },
-                { name: "Tailfin Marketing", src: "/logos/tailfin.png" },
+                { name: "Tailfin Marketing", src: null },
               ].map(({ name, src }) => (
-                <img
-                  key={name}
-                  src={src}
-                  alt={name}
-                  title={name}
-                  className="h-8 max-w-[140px] w-auto object-contain opacity-80 transition hover:opacity-100"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                    const span = document.createElement("span");
-                    span.textContent = name;
-                    span.className = "text-sm font-semibold text-[#7b5a46] opacity-70";
-                    e.currentTarget.parentNode.appendChild(span);
-                  }}
-                />
+                src ? (
+                  <img
+                    key={name}
+                    src={src}
+                    alt={name}
+                    title={name}
+                    className="h-8 max-w-[140px] w-auto object-contain opacity-80 transition hover:opacity-100"
+                  />
+                ) : (
+                  <span key={name} className="text-sm font-semibold tracking-wide text-[#7b5a46] opacity-70 hover:opacity-100 transition">{name}</span>
+                )
               ))}
             </div>
           </div>
